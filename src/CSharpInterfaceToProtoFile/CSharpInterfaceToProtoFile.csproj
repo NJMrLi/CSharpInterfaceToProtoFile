@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>用于将C#编写的接口文件生成对应的proto文件</Description>
+    <PackageReleaseNotes>v1.0.0.0 支持简单的值类型，数组，以及List等</PackageReleaseNotes>
+    <Authors>licheng</Authors>
+    <Product />
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Generate\" />
+  </ItemGroup>
+
+</Project>
